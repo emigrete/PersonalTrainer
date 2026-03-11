@@ -1,0 +1,22 @@
+# Variables de entorno — NUNCA commitear
+.env
+.env.example
+.env.local
+.env.production
+
+# Dependencias
+node_modules/
+
+# Builds
+dist/
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Claude
+.claude/
